@@ -2,7 +2,7 @@
 add_action( 'after_setup_theme', 'writer_setup' );
 function writer_setup()
 {
-load_theme_textdomain( 'writer', get_template_directory() . '/languages' );
+load_theme_textdomain( 'splendor', get_template_directory() . '/languages' );
 add_theme_support( 'title-tag' );
 add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'post-thumbnails' );
@@ -13,19 +13,12 @@ add_action( 'wp_enqueue_scripts', 'writer_load_scripts' );
 function writer_load_scripts()
 {
 wp_enqueue_script( 'jquery' );
-wp_register_script( 'writer-videos', get_template_directory_uri().'/videos.js' );
-wp_enqueue_script( 'writer-videos' );
 }
 add_action( 'wp_head', 'writer_print_custom_scripts', 99 );
 function writer_print_custom_scripts()
 {
 if ( !is_admin() ) {
 ?>
-<script type="text/javascript">
-jQuery(document).ready(function($){
-$("#wrapper").vids();
-});
-</script>
 <?php
 }
 }

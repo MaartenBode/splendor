@@ -39,7 +39,7 @@ input[type="submit"], input[type="reset"]{cursor:pointer}
 #content input[type="submit"]:hover, #content input[type="reset"]:hover, .button:hover{opacity:1}
 a img, input[type="image"]{border:0 none}
 img, video{max-width:100% !important;height:auto}
-#content img, #content figure{max-width:960px !important;height:auto}
+#content img, #content figure{max-width:960px !important;height:auto;}
 #wrapper{max-width:960px;margin:0 auto}
 #header, .post{margin-bottom:80px}
 #footer{margin-top:100px;clear:both; border-top: solid 1px #eaeaea; padding: 40px 0;}
@@ -48,7 +48,7 @@ img, video{max-width:100% !important;height:auto}
 #site-description{font-size:18px;color:#666;margin-top:15px}
 #contact { margin: 15px 0; }
 .entry-meta{margin-bottom:30px; font-family: "Avenir"; font-style: italic; font-size: 15pt; color: #7C7C7C;}
-.entry-content p{font-size:18px}
+.entry-content p{font-size:18px; line-height: 1.5}
 .underline-on-hover:hover { text-decoration: underline; }
 .entry-footer, #nav-below{margin-top:30px}
 .comment-body{margin:30px 0}
