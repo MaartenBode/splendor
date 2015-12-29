@@ -1,0 +1,75 @@
+/*
+Theme Name: Splendor
+Theme URI: http://maartenbode.nl/
+Author: Maarten Bode
+Author URI: http://maartenbode.nl/
+Description: 
+Version: 0.1
+
+© 2015 - 2016 Maarten Bode
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{border-top: solid 3px #1d1d1d; }
+body{font-family:"Avenir", georgia,'times new roman',times,serif;font-size:16px;color:#434343;line-height:normal;margin:5% 2.5%;background:#fff;}
+p{margin:20px 0}
+a{color:#142D9D}
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{font-family:"Avenir", helvetica,arial,sans-serif;font-weight:bold;color:#2C2C2C;text-decoration:none}
+h1, h2, h3, h4, h5, h6{margin:20px 0}
+h1{font-size:24pt}
+h2{font-size:20pt}
+h3{font-size:18pt}
+h4{font-size:16pt}
+h5{font-size:14pt}
+h6{font-size:12pt}
+strong, dt{font-weight:bold}
+em, address, cite, var{font-style:italic}
+code{font-family:'courier new',courier,serif;color:#2C2C2C}
+pre{overflow-x:auto;white-space:pre-wrap}
+hr{height:1px;color:#ccc;border:0 none;margin:30px 0;background-color:#ccc}
+.entry-content ul, .comment ul, .entry-content ol, .comment ol{font-family:helvetica,arial,sans-serif;margin-left:20px !important}
+.entry-content li:before, .comment-body li:before{content:"- "}
+ol li:before{content:"" !important}
+#wrapper ol{list-style:decimal inside}
+blockquote{padding:0 25px;border:4px solid #2C2C2C;margin:10px 2%;background:#f6f6f6}
+label{display:block}
+input, textarea{font-family:arial,sans-serif;font-size:14px;color:#666;padding:1%;border:1px solid #2C2C2C;outline:none;background:#f6f6f6}
+input[type="submit"], input[type="reset"]{cursor:pointer}
+#content input[type="submit"], #content input[type="reset"], .button{font-size:18px !important;color:#fff;padding:8px 10px;border:1px solid #2C2C2C;background-color:#2C2C2C;opacity:0.8}
+#content input[type="submit"]:hover, #content input[type="reset"]:hover, .button:hover{opacity:1}
+a img, input[type="image"]{border:0 none}
+img, video{max-width:100% !important;height:auto}
+#content img, #content figure{max-width:960px !important;height:auto}
+#wrapper{max-width:960px;margin:0 auto}
+#header, .post{margin-bottom:80px}
+#footer{margin-top:100px;clear:both; border-top: solid 1px #eaeaea; padding: 40px 0;}
+#site-title a, #site-title h1 a, #site-title h1{font-family:"Avenir", helvetica,arial,sans-serif;font-size:22pt;font-weight:500;color:#2C2C2C;text-decoration:none;padding:0;margin:0}
+#site-title a:hover, #site-title h1 a:hover{text-decoration:none}
+#site-description{font-size:18px;color:#666;margin-top:15px}
+#contact { margin: 15px 0; }
+.entry-meta{margin-bottom:30px; font-family: "Avenir"; font-style: italic; font-size: 15pt; color: #7C7C7C;}
+.entry-content p{font-size:18px}
+.underline-on-hover:hover { text-decoration: underline; }
+.entry-footer, #nav-below{margin-top:30px}
+.comment-body{margin:30px 0}
+textarea#comment{box-sizing:border-box;width:100%;max-width:350px;height:100px}
+#nav-below a{text-decoration:none;}
+.nav-previous{text-align:left;float:left; margin-bottom: 30px; }
+.nav-next{text-align:right;float:right; margin-bottom: 30px}
+.clear{clear:both}
+.sticky{}
+.bypostauthor{}
+.wp-caption{width:100% !important;margin:20px 0}
+.alignleft, .aligncenter, .alignright, .aligncenter + .wp-caption-text{text-align:center}
+.gallery-caption{border:1px solid #2C2C2C}
+.alignleft{margin:15px 15px 15px 0;float:left}
+.alignright{margin:15px 0 15px 15px;float:right}
+.aligncenter{display:block;margin:15px auto;clear:both}
+.size-thumbnail{margin:5px}
+.entry-links, .entry-footer, .post-edit-link{clear:both}
+.entry-links, .page .post-edit-link{display:block;margin-top:20px}
+
+@media all and (max-width:480px){body{word-wrap:break-word}}
+
+.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+.form-allowed-tags{display:none}
