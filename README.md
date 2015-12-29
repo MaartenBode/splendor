@@ -1,2 +1,2 @@
-# splendor
-Blogging engine for maartenbode.nl
+# splendor-theme
+Wordpress theme for maartenbode.nl
