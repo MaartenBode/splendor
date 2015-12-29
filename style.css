@@ -69,7 +69,12 @@ textarea#comment{box-sizing:border-box;width:100%;max-width:350px;height:100px}
 .entry-links, .entry-footer, .post-edit-link{clear:both}
 .entry-links, .page .post-edit-link{display:block;margin-top:20px}
 
-@media all and (max-width:480px){body{word-wrap:break-word}}
+@media all and (max-width:480px){
+	body{
+		word-wrap:break-word;
+		padding: 10px;
+	}
+}
 
 .screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 .form-allowed-tags{display:none}
