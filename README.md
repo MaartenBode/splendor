@@ -1,2 +1,2 @@
-# splendor-theme
-Wordpress theme for maartenbode.nl
+# maartenbode.nl
+My personal website
